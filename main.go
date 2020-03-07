@@ -26,5 +26,6 @@ func main() {
 	http.HandleFunc("/", h1)
 	http.HandleFunc("/endpoint", h2)
 
+	fmt.Printf("listening on port %s\n", port)
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port), nil))
 }
