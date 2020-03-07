@@ -2,6 +2,7 @@ namePrefix: dev-
 nameSuffix: "-001"
 commonLabels:
   app: sight
+  stuff: newdata
 commonAnnotations:
   oncallPager: 800-555-1212
 resources:
