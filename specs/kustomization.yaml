@@ -1,0 +1,9 @@
+namePrefix: dev-
+nameSuffix: "-001"
+commonLabels:
+  app: sight
+commonAnnotations:
+  oncallPager: 800-555-1212
+resources:
+- deployment.yaml
+- service.yaml
