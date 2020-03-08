@@ -9,3 +9,6 @@ commonAnnotations:
 resources:
 - deployment.yaml
 - service.yaml
+
+configurations:
+- rollout.yaml
