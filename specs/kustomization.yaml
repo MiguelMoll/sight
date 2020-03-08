@@ -5,6 +5,7 @@ commonLabels:
 commonAnnotations:
   oncallPager: 800-555-1212
   stuff: newdata
+  more: data
 resources:
 - deployment.yaml
 - service.yaml
